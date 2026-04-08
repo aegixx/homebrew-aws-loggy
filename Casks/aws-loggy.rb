@@ -1,13 +1,13 @@
 cask "aws-loggy" do
-  version "3.12.0"
+  version "3.12.1"
 
   on_arm do
     url "https://github.com/aegixx/aws-loggy/releases/download/v#{version}/Loggy-#{version}-macos-arm64.dmg"
-    sha256 "11241ef9423f0e750d7e729a7c9d3b202e77c4b2ef1e17f8b61e1e9789edc1bc"
+    sha256 "b28cb496d3ce39e6fe53aa99d4836217877c2e20b0e131fe0c6ed153e3faf66f"
   end
   on_intel do
     url "https://github.com/aegixx/aws-loggy/releases/download/v#{version}/Loggy-#{version}-macos-x86_64.dmg"
-    sha256 "9189c9a83b75addb746d0a1b90ad17548043da3ce5854f0811e0626ee522fafe"
+    sha256 "b11e3f6c833b8cf9a4009a1afde6b56164b03611498b48c31f9d291725af448c"
   end
 
   name "Loggy"
